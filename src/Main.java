@@ -5,16 +5,18 @@
  */
 public class Main {
 
-  /*
-   * static = Método estático
-   * main = Nome do método
-   * void = Tipo de retorno
-   * String[] args = Parâmetro do método
-   */
+  // O código deverá ser inserido aqui dentro
   public static void main(String[] args) {
-    // System = Classe
-    // out = Objeto
-    // println = Método
-    System.out.println("Hello, World!");
+    /*
+     * Valores (int, float, double, long)
+     * Texto (String)
+     * Booleanos (boolean)
+     */
+    int typeInt = 10;
+    double typeDouble = 3.14;
+    float typeFloat = 3.14f;
+    long typeLong = 94823989102932308L;
+    String typeString = "Colocar o meu texto";
+    boolean typeBoolean = true;
   }
 }
