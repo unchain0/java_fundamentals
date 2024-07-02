@@ -19,14 +19,19 @@ public class Main {
     String typeString = "Colocar o meu texto";
     boolean typeBoolean = true;
 
-    // if - else
-    if (typeInt == 10) {
-      System.out.println("Entrou no if");
-    } else if (typeInt == 12) {
-      System.out.println("Entrou no else if");
-    } else {
-      System.out.println("Entrou no else");
+    // While (Enquanto algo for verdadeiro, faça alguma coisa)
+    int count = 0;
+    while (count < 3) {
+      System.out.println("Contador: " + count);
+      count++;
     }
+    System.out.println("Saiu do while");
+
+    // For
+    for (int i = 0; i < 4; i++) {
+      System.out.println("Contador: " + i);
+    }
+    System.out.println("Saiu do for");
   }
 }
 // Fora do escopo da classe
